@@ -1,2 +1,2 @@
 # md5maker
-md5maker
+MD5 hash maker 
