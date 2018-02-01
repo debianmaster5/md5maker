@@ -1,0 +1,25 @@
+#!/usr/bin/python3
+import hashlib
+
+nh = hashlib.md5()
+print("Enter info for crypt")
+hsh = input("MD5maker-> ")
+print(hsh)
+nh.update(hsh.encode('utf-8'))
+print("Hashing...")
+print(nh.hexdigest())
+print("You want save hash? (y/n)")
+sv = input("MD5maker-> ")
+if sv == 'y':
+	ghsh = nh.hexdigest()
+	f = open('hash.txt', 'tw', encoding='utf-8')
+	print("Writing..")
+	f.write(ghsh)
+	f.write("\nby debianmaster5")
+	f.close
+	print("Finish!")
+elif sv == 'n':
+	quit()
+else:
+	quit()
+#by debianmaster5
