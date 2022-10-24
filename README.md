@@ -3,16 +3,8 @@ MD5 hash maker
 
 # Install
 
-apt-get install python3
-
+sudo apt-get install python3 git (for arch - sudo pacman -Sy python3 git)
+pip3 install hashlib
 git clone https://github.com/debianmaster5/md5maker.git
-
 cd md5maker
-
-chmod +x md5maker
-
-./md5maker
-
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-
-by debianmaster5
+python3 md5maker
