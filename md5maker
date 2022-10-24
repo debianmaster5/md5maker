@@ -1,4 +1,3 @@
-#!/usr/bin/python3
 import hashlib
 
 nh = hashlib.md5()
@@ -22,4 +21,3 @@ elif sv == 'n':
 	quit()
 else:
 	quit()
-#by debianmaster5
